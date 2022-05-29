@@ -1,5 +1,6 @@
 function accionParaCuandoEllaDigaQueSi() {
-    alert('Coloca la fecha mi amor💞');
+    let respuesta = alert('Mandame un msj por WhatsApp mi amor, gracias por la oportunidad, te amo💞');
+    window.open("https://wa.me/9993904313")
 }
 
 function mueveElBoton() {
