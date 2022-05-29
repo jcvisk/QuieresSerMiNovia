@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Allura";
+    src: url('../assets/fonts/Allura/Allura-Regular.ttf');
+}
+
+body {
+    background-color: pink;
+    font-family: "Allura";
+    font-size: 2rem;
+}
+
+
+.adorno1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.adorno2 {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.adorno3 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.adorno4 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.cora {
+    width: 20%;
+}
+
+@media (min-width: 768px) {
+    .cora {
+        width: 15%;
+    }
+}
+
+@media (min-width: 992px) {
+    .cora {
+        width: 10%;
+    }
+}
+
+.pregunta-container{
+    height: 50vh;
+    width: 100%;
+}
