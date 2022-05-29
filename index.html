@@ -15,10 +15,11 @@
 </head>
 
 <body>
-     <audio autoplay loop>
-         <source src="audio/MarriedLife.mp3" type="audio/mp3">
-     </audio>
-    
+    <audio autoplay loop>
+        <source src="audio/MarriedLife.mp3" type="audio/mpeg" >
+        No es compatible
+    </audio>
+
     <img src="img/cora.png" alt="corazon" class="img-fluid adorno1 cora">
     <img src="img/cora.png" alt="corazon" class="img-fluid adorno2 cora">
     <img src="img/cora.png" alt="corazon" class="img-fluid adorno3 cora">
@@ -29,18 +30,21 @@
             <div class="row">
                 <div class="col-12">
                     <p>Hola mi amor, se que no quieres que te diga así pero es que no puedo llamarte de otra manera, tu
-                        eres y siempre serás mi amor.</p>
-                    <p>No tienes idea de lo mucho que duele haber que te hice daño, que te he hecho daño desde el primer
-                        día que nos conocimos, jamás ha sido mi intención lastimarte de esta manera.</p>
+                        eres y siempre serás el amor de mi vida.</p>
+                    <p>No tienes idea de lo mucho que duele saber que te hice daño, que te he hecho daño desde el primer
+                        día que nos conocimos, jamás fue mi intención lastimarte de esta manera.</p>
                     <p>Se que te hice daño, eso no puedo negarlo, pero haré todo lo que esté en mis manos para
                         enmendarlo, dame otra oportunidad, dejarte ir sería el error más grave que puedo cometer, eres
                         lo más preciado en mi vida. Te amo.</p>
                     <p>Tal vez estas palabras no signifiquen nada para ti, y es por eso por lo que te pido una
                         oportunidad más y me dejes demostrarte que realmente eres el amor de mi vida.</p>
-                    <p>Somos novios hace <strong id="dias"></strong> días y desde ese día no
-                        imagino la
-                        vida sin ti, hemos tenido muchas dificultades en la relación, desde la desconfianza hasta una
-                        pandemia, pasaron meses sin poder verte y eso afectó demasiado.</p>
+                    <p>Somos novios hace <strong id="dias"></strong> días y desde ese día no imagino la vida sin ti,
+                        hemos tenido muchas
+                        dificultades en la relación, desde la desconfianza hasta una pandemia, pero hemos podido superar
+                        todo eso, y se que podemos superar esto también, se que quieres tu tiempo y eso lo entiendo, te
+                        escribo esto para que sepas que sigo aquí, esperándote y que en el momento que decidas regresar
+                        aquí estaré para ti, sabes que cuentas conmigo para lo que sea, te amo.</p>
+                    <p class="text-right">Con amor, Juan Carlos</p>
                 </div>
             </div>
         </section>
@@ -48,11 +52,15 @@
         <section class="container pregunta-container" id="question-container">
             <div class="row">
                 <div class="col-12">
-                    <h1>¿Quieres ser mi esposa💍?</h1>
-                    <input type="button" onclick="accionParaCuandoEllaDigaQueSi()" id="btnSi" value="Si" />
-                    <input type="button" id="btnNo" onmouseover="mueveElBoton()" value="No" />
+                    <h1>¿Quieres ser mi novia💍?</h1>
+                    <button type="button" onclick="accionParaCuandoEllaDigaQueSi()" id="btnSi" class="btn btn-primary">
+                        Si
+                    </button>
+                    <button type="button" id="btnNo" onmouseover="mueveElBoton()" class="btn btn-danger">
+                        No
+                    </button>
                 </div>
-            </div>            
+            </div>
         </section>
     </main>
 

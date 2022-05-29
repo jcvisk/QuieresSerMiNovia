@@ -6,6 +6,9 @@ function mueveElBoton() {
     let width = $('#question-container').width();
     let  height = $('#question-container').height();
 
+    width = width - $('#btnNo').width();
+    height = height - $('#btnNo').height();
+
     newWidth = (Math.random() * width);
     newHeight = (Math.random() * height);
 
